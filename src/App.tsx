@@ -1,11 +1,11 @@
 import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { initData } from '@telegram-apps/sdk';
+import { initData, initDataUser } from '@telegram-apps/sdk';
 
 function App() {
   useEffect(() => {
-    console.log(initData);
+    console.log(initDataUser);
   }, []);
 
   return (
