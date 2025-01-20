@@ -6,7 +6,7 @@ import { initData, initDataUser } from '@telegram-apps/sdk';
 function App() {
   useEffect(() => {
     
-    console.log((window as any).Telegram.WebApp.initData);
+    console.log((window as any).Telegram.WebApp);
   }, []);
 
   return (
