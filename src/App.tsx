@@ -5,7 +5,7 @@ import { initData } from '@telegram-apps/sdk';
 
 function App() {
   useEffect(() => {
-    console.log(initData.user);
+    console.log(initData);
   }, []);
 
   return (
