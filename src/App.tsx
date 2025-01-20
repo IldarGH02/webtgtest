@@ -4,9 +4,10 @@ import './App.css';
 import { initData, initDataUser } from '@telegram-apps/sdk';
 
 function App() {
+  const tg = window.Telegram.WebApp
   useEffect(() => {
-    
-    console.log((window as any).Telegram.WebApp);
+    console.log(tg.initData)
+    console.log(tg.initDataUnsafe)
   }, []);
 
   return (
